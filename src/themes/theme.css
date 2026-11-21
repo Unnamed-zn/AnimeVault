@@ -1,0 +1,21 @@
+:root {
+  /* Paleta original */
+  --Cor-Azul-Bandana: #035990;
+  --Cor-Azul-Broadwater: #044571;
+  --Cor-Azul-Indigo: #032C4D;
+  --Cor-Azul-Winter: #3E8FA3;
+  --Cor-Verde-Mythic: #4A676C;
+  --Cor-Verde-Turner: #97BCBC;
+
+  /* Cores adicionais sugeridas */
+  --Cor-Azul-Oceano-Escuro: #061E33;
+  --Cor-Azul-Meia-Noite: #0A3555;
+  --Cor-Azul-Atlantico: #126B91;
+  --Cor-Azul-Aco: #347C96;
+  --Cor-Verde-Oceano: #287F87;
+  --Cor-Verde-Petroleo: #205B62;
+  --Cor-Verde-Mar: #6FA6A8;
+  --Cor-Azul-Aqua: #80B2B5;
+  --Cor-Azul-Neblina: #A8C8CC;
+  --Cor-Azul-Gelo: #C5DFE0;
+}

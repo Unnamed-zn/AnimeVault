@@ -1,7 +1,9 @@
+import AnimeDiario from "./paginas/Animes/jojo/AnimeDiario";
+
 function App() {
   return (
     <>
-      
+      <AnimeDiario />
     </>
   )
 }
