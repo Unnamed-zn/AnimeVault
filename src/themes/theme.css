@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-ocean: #061E33;
+  --color-midnight-blue: #0A3555;
+  --color-atlantic-blue: #126B91;
+  --color-steel-blue: #347C96;
+  --color-ocean-teal: #287F87;
+  --color-deep-teal: #205B62;
+  --color-sea-glass: #6FA6A8;
+  --color-dusty-aqua: #B0B2B5;
+  --color-misty-blue: #A8CBCC;
+  --color-ice-blue: #C5DFE0;
+}
