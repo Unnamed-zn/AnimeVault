@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <>
-      
-    </>
-  )
-}
+import AnimeDiario from "./paginas/Animes/AnimeDiario";
 
-export default App;
+export default function App() {
+  return (
+    
+      <AnimeDiario />
+    
+  );
+}

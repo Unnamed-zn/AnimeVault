@@ -11,4 +11,36 @@
   --color-dusty-aqua: #B0B2B5;
   --color-misty-blue: #A8CBCC;
   --color-ice-blue: #C5DFE0;
+
+  --Cor-Azul-Bandana: #035990;
+  --Cor-Azul-Broadwater: #044571;
+  --Cor-Azul-Indigo: #032C4D;
+  --Cor-Azul-Winter: #3E8FA3;
+  --Cor-Verde-Mythic: #4A676C;
+  --Cor-Verde-Turner: #97BCBC;
+  --Cor-Branco: white;
+
+  --Cor-Azul-Oceano-Escuro: #061E33;
+  --Cor-Azul-Meia-Noite: #0A3555;
+  --Cor-Azul-Atlantico: #126B91;
+  --Cor-Azul-Aco: #347C96;
+  --Cor-Verde-Oceano: #287F87;
+  --Cor-Verde-Petroleo: #205B62;
+  --Cor-Verde-Mar: #6FA6A8;
+  --Cor-Azul-Aqua: #80B2B5;
+  --Cor-Azul-Neblina: #A8C8CC;
+  --Cor-Azul-Gelo: #C5DFE0;
+
+  --Destaque: #DFFF00;
+  --Cor-Verde: #13f68c;
+
+@utility bg-gradient-dark {
+  background: #175080;
+  background: radial-gradient(circle, rgba(23, 80, 128, 1) 40%, rgba(5, 19, 36, 1) 100%);
+}
+
+@utility bg-gradient-light {
+  background: #C3D6EC;
+  background: radial-gradient(circle, rgba(195, 214, 236, 1) 40%, rgba(133, 165, 206, 1) 100%);
+}
 }
