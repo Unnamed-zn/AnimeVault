@@ -1,18 +1,17 @@
 import { style } from "./style";
 
 type props = {
-    logo: React.ReactNode;
     sidebar: React.ReactNode;
+    header?: React.ReactNode;
+    content?: React.ReactNode;
 }
 
-export function MainTemplate({ sidebar, logo }: props) {
+export function MainTemplate({ sidebar,header,content}: props) {
     return (
         <div className={style.body}>
-            <div className={style.logoContainer}>
-                {logo}
-            </div>
-            <div></div>
             {sidebar}
+            {header? header : <div />}
+            {content? content: <div />}
         </div>
     );
 }

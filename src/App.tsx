@@ -1,12 +1,10 @@
-import { Logo } from "./components/logo";
-import { Sidebar } from "./components/sidebar";
 import { MainTemplate } from "./templates/mainTemplate";
+import { Sidebar } from "./components/sidebar";
 
 function App() {
   return (
     <>
       <MainTemplate
-        logo={<Logo />}
         sidebar={<Sidebar />}
       />
     </>
