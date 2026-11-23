@@ -6,6 +6,7 @@
   --Cor-Azul-Winter: #3E8FA3;
   --Cor-Verde-Mythic: #4A676C;
   --Cor-Verde-Turner: #97BCBC;
+  --Cor-Branco: white;
 
   /* Cores adicionais sugeridas */
   --Cor-Azul-Oceano-Escuro: #061E33;
@@ -18,4 +19,7 @@
   --Cor-Azul-Aqua: #80B2B5;
   --Cor-Azul-Neblina: #A8C8CC;
   --Cor-Azul-Gelo: #C5DFE0;
+
+  --Destaque: #DFFF00;
+  --Cor-Verde: #13f68c;
 }

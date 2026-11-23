@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { style } from "./style";
 
 type CabecalhoProps = {
@@ -20,20 +19,20 @@ export function CabecalhoAnime(
 
     return(
         <div className={style.caixa}>
-            <div className={style.capa}> /* CAPA DO ANIME */
+            <div className={style.capa}> { /* Capa do Anime */ }
                 <img src={capa} alt={titulo} />
             </div>
 
-            <button> /* BOTÂO DE SALVAR */
-                <img src="" />
+            <button className={style.botaoSalvar}> { /* BOTÂO DE SALVAR */ }
+                <img src="/Logos/Salvar.png" />
             </button>
 
-            <div className={style.info}> /* TITULO DO ANIME */
+            <div className={style.info}> { /* TITULO DO ANIME */ }
                 <div className={style.titulo}>
                     <h1>{titulo}</h1>
                 </div>
 
-                <div className={style.outro}>
+                <div className={style.outro}> { /* Aqui vão ficar as informações do lado da capa */ }
                     <div className={style.caixaEsquerda}>
                         <h3>
                             Temporada: <span className={style.Destaque}>{temporada}</span>
@@ -42,28 +41,29 @@ export function CabecalhoAnime(
                             Episódios: <span className={style.Destaque}>{episodios}</span>
                         </h3>
                         <h3>
-                            Lançado em: <span className={style.Destaque}>{lancamento}</span>
+                            Lançado: <span className={style.Destaque}>{lancamento}</span>
                         </h3>
                     </div>
 
                     <div className={style.caixaDireita}>
-
-                        <div className={style.idiomas}>
-                            <h2 className={style.status}>{status}</h2>
-
-                            {dub && (
-                                <h2 className={style.texto}>DUB</h2>
-                            )}
-
-                            {leg && (
-                                <h2 className={style.texto}>LEG</h2>
-                            )}
+                        <div className={style.status}>
+                            <h2 className={style.s}>{status}</h2>
                         </div>
 
-                    </div>
-                </div> /* Fecha a div outros */
+                            <div className={style.idiomas}>
+                                {dub && (
+                                    <h2 className={style.texto}>DUB</h2>
+                                )}
 
-            </div> /* Fecha a div info */
+                                {leg && (
+                                    <h2 className={style.texto}>LEG</h2>
+                                )}
+                            </div>
+
+                    </div>
+                </div> { /* Fecha a div outros */ }
+
+            </div> { /* Fecha a div info */ }
 
         </div> /* Fehca a div caixa */
 

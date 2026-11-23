@@ -1,11 +1,9 @@
-import AnimeDiario from "./paginas/Animes/jojo/AnimeDiario";
+import AnimeDiario from "./paginas/Animes/AnimeDiario";
 
-function App() {
+export default function App() {
   return (
-    <>
+    
       <AnimeDiario />
-    </>
-  )
+    
+  );
 }
-
-export default App;

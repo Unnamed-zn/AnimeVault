@@ -2,16 +2,19 @@ export const style = {
     caixa: `
         min-h-screen
         w-full
-        bg-[var(-Cor-Azul-Gelo)]
+        bg-[var(--Cor-Azul-Gelo)]
         mt-0
-        px-20
+        px-5
+        pt-5
     
     `,
 
     principal:` 
         w-full
-        p-5  
+        p-2
         
         bg-[var(--Cor-Azul-Indigo)]
+        rounded-3xl
+
     `,
 };
