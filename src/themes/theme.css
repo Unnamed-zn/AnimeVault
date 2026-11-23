@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -11,4 +12,17 @@
   --color-dusty-aqua: #B0B2B5;
   --color-misty-blue: #A8CBCC;
   --color-ice-blue: #C5DFE0;
+  --font-logo: 'Lora';
+  --font-main: 'Open Sans';
+  --font-anime: 'Noto Serif';
+}
+
+@utility bg-gradient-dark {
+  background: #175080;
+  background: radial-gradient(circle, rgba(23, 80, 128, 1) 40%, rgba(5, 19, 36, 1) 100%);
+}
+
+@utility bg-gradient-light {
+  background: #C3D6EC;
+  background: radial-gradient(circle, rgba(195, 214, 236, 1) 40%, rgba(133, 165, 206, 1) 100%);
 }
