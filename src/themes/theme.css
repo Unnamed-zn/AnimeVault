@@ -33,6 +33,7 @@
 
   --Destaque: #DFFF00;
   --Cor-Verde: #13f68c;
+}
 
 @utility bg-gradient-dark {
   background: #175080;
@@ -42,5 +43,4 @@
 @utility bg-gradient-light {
   background: #C3D6EC;
   background: radial-gradient(circle, rgba(195, 214, 236, 1) 40%, rgba(133, 165, 206, 1) 100%);
-}
 }

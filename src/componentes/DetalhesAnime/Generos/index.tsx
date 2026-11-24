@@ -8,7 +8,7 @@ export function Generos ({ G }: TipoGeneroProps){
     return(
         <div className={style.caixa}>
 
-            <div className={style.Titulo}>
+            <div className={style.Titulo}>  { /* Ti */ }
                 <h2>Gêneros:</h2>
             </div>
 
