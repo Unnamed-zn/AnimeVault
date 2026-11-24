@@ -37,6 +37,10 @@ export const style = {
     `,
 
     TipoGenero:`
+        flex
+        justify-center
+        items-center
+
         text-center
         p-1
 

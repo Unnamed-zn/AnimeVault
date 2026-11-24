@@ -1,9 +1,10 @@
-import AnimeDiario from "./paginas/Animes/AnimeDiario";
+import * as Animes from "./paginas/Animes";
 
 export default function App() {
   return (
     
-      <AnimeDiario />
+      <Animes.AnimeAOT />
+
     
   );
 }

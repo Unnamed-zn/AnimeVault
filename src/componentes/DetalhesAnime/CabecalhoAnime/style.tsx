@@ -67,7 +67,7 @@ export const style = {
         items-center
         justify-center
         
-        mt-3
+        mt-7
         w-full
 
         font-bold
