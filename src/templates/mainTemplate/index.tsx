@@ -11,7 +11,7 @@ export function MainTemplate({ sidebar,header,content}: props) {
         <div className={style.body}>
             {sidebar}
             {header? header : <div />}
-            {content? content: <div />}
+            {content? content : <div />}
         </div>
     );
 }
