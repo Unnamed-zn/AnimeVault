@@ -6,3 +6,4 @@ export { default as AnimeCyberpunk } from "./AnimeCyberpunk";
 export { default as AnimeDan } from "./AnimeDan";
 export { default as AnimeDeathNote } from "./AnimeDeathNote";
 export { default as AnimeDemon } from "./AnimeDemon";
+export { default as AnimeStone } from "./AnimeStone";
