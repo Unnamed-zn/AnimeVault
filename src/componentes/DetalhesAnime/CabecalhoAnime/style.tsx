@@ -50,6 +50,9 @@ export const style = {
         lg:p-2
         lg:top-0
         lg:right-0
+
+        xl:top-[-5px]
+        xl:right-[-5px]
     `,
 
     info: `
@@ -73,6 +76,9 @@ export const style = {
 
         lg:mt-5
         lg:text-[3.5vh]
+
+        xl:mt-10
+        xl:text-[5vh]
     `,
 
     outro: `
@@ -90,6 +96,8 @@ export const style = {
         lg:mb-5
         lg:text-[1.8vh]
         lg:px-5
+
+        xl:px-20
     `,
 
     caixaEsquerda: `
@@ -100,6 +108,10 @@ export const style = {
 
         lg:gap-2
         
+        xl:w-[80%]
+
+        xl:justify-center
+        xl:items-star
     `,
 
     caixaDireita: `
@@ -108,7 +120,7 @@ export const style = {
         items-center
         justify-center
 
-        border-l-4
+        border-l-2
         border-[var(--Cor-Branco)]
  
         gap-2
@@ -116,17 +128,25 @@ export const style = {
 
         lg:gap-5
         lg:p-2
+        lg:border-l-4
+        lg:pl-6
+
     `,
 
     status:`
         w-full
         text-center
         px-2
+
+        xl:text-[2vh]
     `,
 
     s:`
         bg-[var(--Cor-Verde)]
         rounded-2xl
+
+        xl:py-2
+        xl:mx-50
         
     `,
 

@@ -6,6 +6,8 @@ export const style = {
         text-[var(--Cor-Branco)]
 
         lg:mt-5
+
+        xl:mt-10
     `,
 
     ZonaTexto:`
@@ -19,6 +21,9 @@ export const style = {
 
         lg:p-5
         lg:text-[2vh]
+
+        xl:px-10
+        xl:text-[2.5vh]
     `,
 
     P: `

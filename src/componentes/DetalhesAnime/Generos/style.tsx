@@ -18,6 +18,8 @@ export const style = {
 
         lg:mb-4
         lg:text-[2vh]
+
+        xl:text-[2.6vh]
     `,
 
     generos:`
@@ -29,6 +31,9 @@ export const style = {
         lg:grid-cols-4
         lg:gap-6
         lg:text-[1.7vh]
+
+        xl:grid-cols-7
+        xl:text-[2vh]
     `,
 
     TipoGenero:`

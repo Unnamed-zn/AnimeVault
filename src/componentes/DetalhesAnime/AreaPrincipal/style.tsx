@@ -9,7 +9,8 @@ export const style = {
 
         lg:px-15
         lg:py-10
-    
+
+        xl:px-20
     `,
 
     principal:` 
@@ -22,6 +23,8 @@ export const style = {
         rounded-3xl
 
         lg:p-5
+
+        lg:p-6
 
     `,
 };
