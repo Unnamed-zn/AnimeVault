@@ -5,6 +5,8 @@ export const style = {
         flex-row
         text-[var(--Cor-Branco)]
         gap-2
+
+        lg:gap-5
     `,
 
     capa: `
@@ -16,6 +18,14 @@ export const style = {
 
         w-40
         h-full
+
+        lg:w-80
+        lg:h-full
+        lg:border-4
+    `,
+
+    C: `
+        lg:w-full
     `,
 
     botaoSalvar: `
@@ -34,6 +44,12 @@ export const style = {
         justify-center
         rounded-full
         bg-[var(--Cor-Azul-Winter)]
+
+        lg:w-15
+        lg:h-auto
+        lg:p-2
+        lg:top-0
+        lg:right-0
     `,
 
     info: `
@@ -54,6 +70,9 @@ export const style = {
         font-bold
         text-[2.2vh]
         text-center
+
+        lg:mt-5
+        lg:text-[3.5vh]
     `,
 
     outro: `
@@ -67,6 +86,10 @@ export const style = {
         mb-3
 
         text-sm
+
+        lg:mb-5
+        lg:text-[1.8vh]
+        lg:px-5
     `,
 
     caixaEsquerda: `
@@ -74,6 +97,8 @@ export const style = {
         flex-col
         gap-1
         w-full
+
+        lg:gap-2
         
     `,
 
@@ -83,11 +108,14 @@ export const style = {
         items-center
         justify-center
 
-        border-l-2
+        border-l-4
         border-[var(--Cor-Branco)]
  
         gap-2
         w-full
+
+        lg:gap-5
+        lg:p-2
     `,
 
     status:`
@@ -106,6 +134,8 @@ export const style = {
         flex
         flex-row
         gap-2
+
+        lg:gap-6
     `,
 
     texto: `

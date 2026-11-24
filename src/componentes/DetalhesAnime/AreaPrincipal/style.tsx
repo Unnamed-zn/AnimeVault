@@ -6,6 +6,9 @@ export const style = {
         mt-0
         px-5
         pt-5
+
+        lg:px-15
+        lg:py-10
     
     `,
 
@@ -17,6 +20,8 @@ export const style = {
         border-3
         border-[var(--Cor-Azul-Winter)]
         rounded-3xl
+
+        lg:p-5
 
     `,
 };

@@ -20,7 +20,7 @@ export function CabecalhoAnime(
     return(
         <div className={style.caixa}>
             <div className={style.capa}> { /* Capa do Anime */ }
-                <img src={capa} />
+                <img className={style.C} src={capa} />
             </div>
 
             <button className={style.botaoSalvar}> { /* BOTÂO DE SALVAR */ }

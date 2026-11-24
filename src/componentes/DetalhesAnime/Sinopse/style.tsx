@@ -4,6 +4,8 @@ export const style = {
         mt-2
         p-2
         text-[var(--Cor-Branco)]
+
+        lg:mt-5
     `,
 
     ZonaTexto:`
@@ -14,6 +16,9 @@ export const style = {
         border-[var((--Cor-Azul-Winter))]
         text-justify
         rounded-3xl
+
+        lg:p-5
+        lg:text-[2vh]
     `,
 
     P: `
